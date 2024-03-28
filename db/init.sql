@@ -1,0 +1,5 @@
+CREATE USER 'Syatt'@'%'
+IDENTIFIED WITH
+caching_sha2_password BY 'Senha123#';
+GRANT ALL PRIVILEGES ON *.* TO 'Syatt'@'%';
+FLUSH PRIVILEGES;

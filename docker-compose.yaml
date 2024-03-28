@@ -1,0 +1,63 @@
+services:
+  db:
+    image: mysql:8
+    restart: always
+    command: --authentication_policy=caching_sha2_password
+    healthcheck:
+      test: ['CMD-SHELL', 'mysqladmin ping -h 127.0.0.1 --password="$$(cat /run/secrets/db-password)" --silent']
+      interval: 3s
+      retries: 5
+      start_period: 30s
+    secrets:
+      - db-password
+    volumes:
+      - db-data:/var/lib/mysql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - backnet
+    environment:
+      MYSQL_DATABASE: api
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db-password
+    expose:
+      - 3306
+      - 33060
+
+  adminer:
+    image: adminer
+    restart: always
+    container_name: adminer
+    ports:
+      - 8080:8080
+    networks:
+      - backnet
+
+  frontend:
+    build:
+      context: Synergy-FrontEnd
+      target: frontend
+    container_name: frontend
+    restart: always
+    command: "npm run dev"
+    working_dir: /code/next
+    user: "node"
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+      - NEXT_PUBLIC_DEVELOPMENT=true
+    volumes:
+      - ./Synergy-FrontEnd:/code:delegated
+      - /code/node_modules
+    ports:
+      - 3000:3000
+    networks:
+      - backnet
+
+volumes:
+  db-data:
+
+secrets:
+  db-password:
+    file: db/password.txt
+
+networks:
+  backnet:
