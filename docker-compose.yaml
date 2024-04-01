@@ -52,6 +52,25 @@ services:
     networks:
       - backnet
 
+  backend:
+    build:
+      context: Synergy-BackEnd
+      dockerfile: Dockerfile
+      target: backend
+    volumes:
+      - ./Synergy-BackEnd/nestjs:/usr/src/app
+      - /usr/src/app/node_modules
+    command: npm run start:dev
+    depends_on:
+      - db
+    environment:
+      PORT: 5000
+      NODE_ENV: development
+    container_name: backend
+    user: "node"
+    ports:
+      - 5000:5000
+
 volumes:
   db-data:
 
