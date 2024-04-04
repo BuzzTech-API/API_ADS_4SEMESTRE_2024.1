@@ -18,7 +18,7 @@
   <a href ="#sprint"> Sprints </a>  |
   <a href ="#backlog"> Backlog do Produto </a>  | 
   <!-- <a href ="#roadmap"> Roadmap </a>  | -->
-  <a href ="#personas"> Personas </a>  |
+  <!--<a href ="#personas"> Personas </a>  | -->
   <a href ="#historia"> Histórias de Usuário </a>  | 
   <a href ="#equipe"> Equipe </a>  |
   <a href ="#focal"> Focal Point </a>
@@ -34,6 +34,13 @@
  <a href="https://www.docker.com"><img src = "https://img.shields.io/badge/Docker-0e0a8f?style=for-the-badge&logo=Docker&logoColor=white"/></a>
  <a href="https://docs.github.com/pt"><img src = "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
  <a href="https://help.figma.com/hc/en-us"><img src = "https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/></a>
+ <a href="https://www.mysql.com"><img src = "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/></a>
+ <a href="https://chakra-ui.com"><img src = "https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white"/></a>
+ <a href="https://nestjs.com/"><img src = "https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"/></a>
+ <a href="https://nextjs.org/"><img src = "https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/></a>
+ <a href="https://www.atlassian.com/br/software/jira"><img src = "https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white"/></a>
+ <a href="https://code.visualstudio.com/"><img src = "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/></a>
+      
 </h4>
 
 
@@ -41,7 +48,7 @@
 <br>
 <br>
 
-> Status do Projeto: Em planejamento! :hammer_and_wrench:
+> Status do Projeto: Em Progresso! :hammer_and_wrench:
 
 <br>
 
@@ -122,13 +129,13 @@ A definição do nosso *Minimal Viable Product (MVP)* é uma versão sintética,
 
 ## :date: Sprints <a id="sprint"></a>
 
-🔖 SPRINT 1:  Não Iniciado! 🟥
+🔖 SPRINT 1:  Em Progresso!⚒️
 
-🔖 SPRINT 2:  Não Iniciado! 🟥
+🔖 SPRINT 2:  Não Iniciado!🟦
 
-🔖 SPRINT 3:  Não Iniciado! 🟥
+🔖 SPRINT 3:  Não Iniciado!🟦
 
-🔖 SPRINT 4:  Não Iniciado! 🟥
+🔖 SPRINT 4:  Não Iniciado!🟦
 
 
 
@@ -140,26 +147,33 @@ A definição do nosso *Minimal Viable Product (MVP)* é uma versão sintética,
 <br>
 
 <div align="center">
-  🤖 On Progress ...
+      
+|   Rank  |   Requisito   | Prioridade |                                                                                           User Story                                                                                      | Story Points | Sprint | Status  |
+| :-----: | :-----------: | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------: | :----: | :-----: |
+|  1      |      RQ2      |    Alta    |Como um usuário administrador, quero ser capaz de cadastrar usuários no sistema para poder realizar reuniões.                                                                                 |     5     |    1   |   ⚒️   |
+|  2      |      RQ1      |    Alta    |Como um usuário comum ou administrador, quero poder fazer login no sistema para acessar minha conta.                                                                                          |     5     |    1   |   ⚒️   |
+|  3      |    RQ4-RQ6    |    Alta    |Como usuário comum, quero agendar reuniões em salas presenciais tanto individuais quanto em grupo para colaboração e a comunicação de forma pessoal.                                          |     6     |    1   |   ⚒️   |
+|  4      |      RQ4      |    Alta    |Como usuário comum, quero agendar reuniões online no Zoom pelo sistema para facilitar a comunicação remota e a colaboração entre os membros da equipe.                                        |     15    |    2   |   🟦   |
+|  5      |      RQ4      |    Alta    |Como usuário comum, quero poder agendar reuniões híbridas selecionando uma sala presencial e outra online para facilitar a participação remota e presencial dos membros da equipe.            |     17    |    2   |   🟦   |
+|  6      |      RQ5      |    Alta    |Como usuário comum, ao ser convidado para uma reunião, quero receber uma notificação por e-mail para saber em que reuniões estou participando.                                                |     4     |    2   |   🟦   |
+|  7      |      RQ7      |    Alta    |Como usuário comum responsável por agendar a reunião, quero receber um e-mail contendo o esboço da ata da reunião gerada em arquivo Word para facilitar a preparação e organização da reunião.|     6     |    2   |   🟦   |
+|  8      |      RQ3      |    Alta    |Como usuário administrador, quero criar salas de reuniões físicas para facilitar o agendamento e a reserva de espaços adequados para reuniões presenciais.                                    |     4     |    1   |   ⚒️   |
+|  9      |      RQ3      |    Alta    |Como usuário administrador, quero criar salas de reuniões virtuais para participar de reuniões via zoom.                                                                                      |     10    |    1   |   ⚒️   |
+|  10     |               |   Média    |Como usuário comum criador da reunião, quero desmarcar reuniões que criei para evitar a realização de reuniões desnecessárias ou agendadas erroneamente.                                      |     3     |    3   |   🟦   |
+|  11     |      RQ8      |   Média    |Como usuário comum, ao marcar uma reunião, quero ver a disponibilidade dos convidados para verificar quem poderá participar da mesma.                                                         |     6     |    3   |   🟦   |
+|  12     |               |   Média    |Como usuário comum, ao preencher as informações da reunião, quero receber sugestões de sala para agenda-la para ter mais facilidade de uso.                                                   |     6     |    2   |   🟦   |
+|  13     |               |   Média    |Como usuário comum, ao agendar uma reunião, quero receber um e-mail de confirmação do agendamento para ter a certeza de que a reunião foi marcada corretamente e facilitando o acompanhamento da minha agenda.|     4     |    2   |   🟦   |
+|  14     |               |   Média    |Como um usuário administrador, quero ser capaz de excluir usuários no sistema para manter a segurança e a integridade do sistema.                                                             |     3     |    4   |   🟦   |
+|  15     |               |    Baixa   |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.                                          |     5     |    4   |   🟦   |
+|  16     |               |    Baixa   |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|    5     |    4   |   🟦   |
+|  17     |               |    Baixa   |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.                     |     5     |    4   |   🟦   |
+|  18     |               |    Baixa   |Como usuário administrador, quero editar informações de salas de reuniões para poder atualizar qualquer informação relevante, garantindo que as informações estejam precisas e atualizadas para os usuários que agendam reuniões.|     5     |    3   |   🟦   |
+|  19     |               |    Baixa   |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.                                        |     3     |    3   |   🟦   |
+|  20     |               |    Baixa   |Como usuário comum, quero ter a possibilidade de editar minhas informações para manter meus dados atualizados.                                                                                |     3     |    4   |   🟦   |
+
 </div>
 
-<!--
-|    Tarefa    |    Descrição    |               Histórias de Usuários                | Sprint | Pontos de História |       Status       |
-| :----------: | :-------------: | :------------------------------------------------: | :----: | :-------------------: | :----------------: |
-|  Criar Processos  | Abertura de um novo processo | <a href='#us01'>US01</a> |  1    |          37           | :white_check_mark: |
-|  Criar Etapas  | Abertura de uma nova etapa | <a href='#us02'>US02</a> |   1    |          37          | :white_check_mark: |
-|  Fornecer Evidências  | Anexação de evidências dentro de uma etapa | <a href='#us03'>US03</a> |   1    |         52          | :white_check_mark: |
-|  Cadastrar Usuários  | Cadastro / Login de usuários | <a href='#us04'>US04 </a>, <a href='#us05'>US05</a> |   1    |          43           | :white_check_mark: |
-|  Adicionar Hierarquias / Cargos  | Suporte aos Cargos e Hierarquias de cada usuário | <a href='#us06'>US06 </a> |   2    |          24           | :white_check_mark: |
-|  Validar Evidências  | Sistema para validar as evidências já solicitadas | <a href='#us07'>US07 </a> |   2    |          28           | :white_check_mark: |
-|  Implementar a Autenticação de 2 fatores  | Autenticação de 2 fatores no login | <a href='#us08'>US08 </a> |   2    |          16           | :white_check_mark: |
-|  Alterar Processos / Evidências  | Editar e Reorganizar processos e seus conteúdos | <a href='#us09'>US09</a> |   2    |          28          | :white_check_mark:  |
-|  Notificar Prazo  | Notificação de prazos | <a href='#us10'>US10 </a>, <a href='#us11'>US11 </a>, <a href='#us12'>US12 </a> |   3    |         80          | :white_check_mark: |
-|  Visualizar Detalhes  | Painel de visualização de detalhes | <a href='#us13'>US13</a> |  3    |          80          | :white_check_mark:|
-|  Filtrar Processos  | Filtro de Processos | <a href='#us14'>US14</a> |   3    |         20          | :white_check_mark: |
-|  Visualizar Histórico | Visualizar histórico de informações chave de um ou mais Processos / Etapas | <a href='#us15'>US15</a> |   4    |          80           |  	:negative_squared_cross_mark: |
-|  Gerar Relatório  | Gerar um relatório com informações chave de um ou mais Processos / Etapas  | <a href='#us16'>US16</a> |   4    |          40           | :white_check_mark: |
--->
+
 
 <br>
 
@@ -188,29 +202,31 @@ A definição do nosso *Minimal Viable Product (MVP)* é uma versão sintética,
 ## :key: Histórias de Usuário<a id="historia"></a>
 
 <div align="center">
-  🤖 On Progress ...
-</div>
 
-<!--
 |          ID           |                     História de Usuário                      |
 | :-------------------: | :----------------------------------------------------------: |
-| US01<a id='us01'></a> |Como um Gerente/Diretor, quero criar uma nova instância de um processo para assim conseguir organiza-lo e documenta-lo através de suas etapas.|
-| US02<a id='us02'></a> |Como um Gerente/Diretor quero criar Etapas dentro dos processos para assim poder organizar de forma linear o progresso do processo. |
-| US03<a id='us03'></a> |Como um Colaborador quero adicionar as Evidências corretas nas etapas para que a etapa tenha uma prova de que foi concluida com sucesso. |
-| US04<a id='us04'></a> |Como um Usuário Registrado, desejo fazer login na minha conta para acessar minhas tarefas e processos.|
-| US05<a id='us05'></a> |Como um Administrador do Sistema, desejo ter a capacidade de cadastrar novos usuários no aplicativo para que eles possam fazer login e acessar suas tarefas e processos.|
-| US06<a id='us06'></a> |Como um Usuário Registrado, desejo ter a capacidade de impersonar certos cargos dentro da organização para que eu possa ter uma experiência específica das minhas funções dentro do software.| 
-| US07<a id='us07'></a> |Como um líder de equipe, desejo ter a capacidade de validar as evidências anexadas pelos colaboradores em relação a uma etapa específica de um processo, para que eu possa confirmar a revisão feita naquele documento anexado.| 
-| US08<a id='us08'></a> |Como um usuário do aplicativo, desejo ter a capacidade de habilitar e utilizar a autenticação de dois fatores (2FA) no momento do login. Isso me permitirá adicionar uma camada adicional de segurança à minha conta, aumentando a proteção contra acessos não autorizados.| 
-| US09<a id='us09'></a> |Como um Gerente/Diretor, desejo ter a capacidade de alterar e reorganizar os processos existentes, para que eu possa adaptar os processos às necessidades em constante evolução da minha equipe e da organização.|
-| US10<a id='us10'></a> |Como um Gerente/Diretor, desejo receber notificações sempre que um prazo se aproximar ou expirar em um processo que estou gerenciando além de atualizações em status de requisições, para que eu possa acompanhar os prazos e garantir que os processos sejam executados de acordo com as especificações e prazos estabelecidos.|
-| US11<a id='us11'></a> |Como um Líder/Gestor, desejo receber notificações sempre que um prazo se aproximar ou expirar em uma etapa ou requisição de evidência que estou supervisionando além de atualizações em status de requisições, para que eu possa acompanhar os prazos e garantir que elas sejam concluídas pontualmente e com eficiência. |
-| US12<a id='us12'></a> |Como um Colaborador, desejo receber notificações por email sempre que um prazo se aproximar ou expirar em uma etapa que estou envolvido além de atualizações em status de requisições, para que eu possa cumprir os prazos e fornecer as evidências necessárias para validar o cumprimento dos requisitos da etapa.|
-| US13<a id='us13'></a> |Como um Usuário, desejo ter acesso a um painel de visualização de detalhes que me permita ver informações-chave de um ou mais processos ou etapas nos quais estou envolvido, para que eu possa obter uma visão rápida e abrangente do status e dos dados relevantes desses processos ou etapas.|
-| US14<a id='us14'></a> |Como um Usuário, desejo ter a capacidade de filtrar processos ou etapas com base em critérios específicos, como status, data de criação ou outros atributos relevantes, para que eu possa rapidamente localizar os processos ou etapas que preciso gerenciar ou revisar com mais eficiência.|
-| US15<a id='us15'></a> |Como um Gerente/Diretor, desejo ter a capacidade de visualizar o histórico de interações com os processos ou etapas sob minha responsabilidade, para rastrear ações realizadas, identificar responsabilidades e entender o progresso e as mudanças ao longo do tempo.
-| US16<a id='us16'></a> |Como um C-Level da empresa, desejo ter a capacidade de gerar e exportar um relatório personalizado que contenha informações-chave sobre processos específicos. Isso me permitirá obter uma visão consolidada do cumprimento dos processos, comunicar eficazmente o desempenho da empresa aos investidores e partes interessadas, bem como fornecer relatórios para auditorias externas quando necessário|
--->
+| US01 |Como um usuário administrador, quero ser capaz de cadastrar usuários no sistema para poder realizar reuniões.|
+| US02 |Como um usuário comum ou administrador, quero poder fazer login no sistema para acessar minha conta.|
+| US03 |Como usuário comum, quero ter a possibilidade de editar minhas informações para manter meus dados atualizados.|
+| US04 |Como usuário comum, quero agendar reuniões em salas presenciais tanto individuais quanto em grupo para colaboração e a comunicação de forma pessoal.|
+| US05 |Como usuário comum, quero agendar reuniões online no Zoom pelo sistema para facilitar a comunicação remota e a colaboração entre os membros da equipe.|
+| US06 |Como usuário comum, quero poder agendar reuniões híbridas selecionando uma sala presencial e outra online para facilitar a participação remota e presencial dos membros da equipe.| 
+| US07 |Como usuário comum criador da reunião, quero desmarcar reuniões que criei para evitar a realização de reuniões desnecessárias ou agendadas erroneamente.| 
+| US08 |Como usuário comum, ao marcar uma reunião, quero ver a disponibilidade dos convidados para verificar quem poderá participar da mesma.| 
+| US09 |Como usuário comum, ao preencher as informações da reunião, quero receber sugestões de sala para agenda-la para ter mais facilidade de uso.|
+| US10 |Como usuário comum, ao agendar uma reunião, quero receber um e-mail de confirmação do agendamento para ter a certeza de que a reunião foi marcada corretamente e facilitando o acompanhamento da minha agenda.|
+| US11 |Como usuário comum, ao ser convidado para uma reunião, quero receber uma notificação por e-mail para saber em que reuniões estou participando.|
+| US12 |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.|
+| US13 |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|
+| US14 |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.|
+| US15 |Como usuário comum responsável por agendar a reunião, quero receber um e-mail contendo o esboço da ata da reunião gerada em arquivo Word para facilitar a preparação e organização da reunião.|
+| US16 |Como usuário administrador, quero criar salas de reuniões físicas para facilitar o agendamento e a reserva de espaços adequados para reuniões presenciais.|
+| US17 |Como usuário administrador, quero criar salas de reuniões virtuais para participar de reuniões via zoom.|
+| US18 |Como usuário administrador, quero editar informações de salas de reuniões para poder atualizar qualquer informação relevante, garantindo que as informações estejam precisas e atualizadas para os usuários que agendam reuniões.|
+| US19 |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.|
+| US20 |Como um usuário administrador, quero ser capaz de excluir usuários no sistema para manter a segurança e a integridade do sistema.|
+
+</div>
 
 <br>
 
@@ -236,4 +252,4 @@ A definição do nosso *Minimal Viable Product (MVP)* é uma versão sintética,
 
 | PO²              | M²       |
 | :-------------------: | :-----------: |
-| <a href=''>A definir</a> | <a href=''>A definir</a> |
+| <a href='https://www.linkedin.com/in/juliana-forin-pasquini-martinez-756b24163/'>Profª Juliana</a> | <a href=''>A definir</a> |
