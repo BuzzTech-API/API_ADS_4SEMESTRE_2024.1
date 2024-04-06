@@ -116,12 +116,12 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 
 ## 🚀 MVP <a id="mvp"></a>
 
+<div>
+  A definição do nosso Minimal Viable Product (MVP) é uma versão sintética, porém funcional, do software de gerenciamento de reuniões. Nele o usuário poderá:
 
-
-A definição do nosso *Minimal Viable Product (MVP)* é uma versão sintética, porém funcional, do software de documentação de processos. Nele o usuário poderá:
-
-<div align="center">
-  🤖 On Progress ...
+- Agendar reuniões presencias, online e híbridas de forma flexível, rastreável e simples.
+- Informar a ocupação de salas e usuários.
+- Cadastrar, editar e excluir usuários e salas de reunião, de todos os tipos, com suas devidas restrições.
 </div>
 
 
@@ -159,17 +159,19 @@ A definição do nosso *Minimal Viable Product (MVP)* é uma versão sintética,
 |  7      |      RQ7      |    Alta    |Como usuário comum responsável por agendar a reunião, quero receber um e-mail contendo o esboço da ata da reunião gerada em arquivo Word para facilitar a preparação e organização da reunião.|     6     |    2   |   🟦   |
 |  8      |      RQ3      |    Alta    |Como usuário administrador, quero criar salas de reuniões físicas para facilitar o agendamento e a reserva de espaços adequados para reuniões presenciais.                                    |     4     |    1   |   ⚒️   |
 |  9      |      RQ3      |    Alta    |Como usuário administrador, quero criar salas de reuniões virtuais para participar de reuniões via zoom.                                                                                      |     10    |    1   |   ⚒️   |
-|  10     |               |   Média    |Como usuário comum criador da reunião, quero desmarcar reuniões que criei para evitar a realização de reuniões desnecessárias ou agendadas erroneamente.                                      |     3     |    3   |   🟦   |
-|  11     |      RQ8      |   Média    |Como usuário comum, ao marcar uma reunião, quero ver a disponibilidade dos convidados para verificar quem poderá participar da mesma.                                                         |     6     |    3   |   🟦   |
-|  12     |               |   Média    |Como usuário comum, ao preencher as informações da reunião, quero receber sugestões de sala para agenda-la para ter mais facilidade de uso.                                                   |     6     |    2   |   🟦   |
-|  13     |               |   Média    |Como usuário comum, ao agendar uma reunião, quero receber um e-mail de confirmação do agendamento para ter a certeza de que a reunião foi marcada corretamente e facilitando o acompanhamento da minha agenda.|     4     |    2   |   🟦   |
-|  14     |               |   Média    |Como um usuário administrador, quero ser capaz de excluir usuários no sistema para manter a segurança e a integridade do sistema.                                                             |     3     |    4   |   🟦   |
-|  15     |               |    Baixa   |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.                                          |     5     |    4   |   🟦   |
-|  16     |               |    Baixa   |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|    5     |    4   |   🟦   |
-|  17     |               |    Baixa   |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.                     |     5     |    4   |   🟦   |
-|  18     |               |    Baixa   |Como usuário administrador, quero editar informações de salas de reuniões para poder atualizar qualquer informação relevante, garantindo que as informações estejam precisas e atualizadas para os usuários que agendam reuniões.|     5     |    3   |   🟦   |
-|  19     |               |    Baixa   |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.                                        |     3     |    3   |   🟦   |
-|  20     |               |    Baixa   |Como usuário comum, quero ter a possibilidade de editar minhas informações para manter meus dados atualizados.                                                                                |     3     |    4   |   🟦   |
+|  10     |      RQ3      |    Alta    |Como um novo usuário criador da reunião, quero ser capaz de visualizar as reuniões que criei para ter maior controle da minha agenda.                                                         |     5     |    1   |   ⚒️   |
+|  11     |      RQ3      |    Alta    |Como um usuário do sistema, quero ser capaz agendar reuniões individuais em uma sala de reunião física, para participar de reuniões sozinho.                                                  |     4     |    1   |   ⚒️   |
+|  12     |               |   Média    |Como usuário comum criador da reunião, quero desmarcar reuniões que criei para evitar a realização de reuniões desnecessárias ou agendadas erroneamente.                                      |     3     |    3   |   🟦   |
+|  13     |      RQ8      |   Média    |Como usuário comum, ao marcar uma reunião, quero ver a disponibilidade dos convidados para verificar quem poderá participar da mesma.                                                         |     6     |    3   |   🟦   |
+|  14     |               |   Média    |Como usuário comum, ao preencher as informações da reunião, quero receber sugestões de sala para agenda-la para ter mais facilidade de uso.                                                   |     6     |    2   |   🟦   |
+|  15     |               |   Média    |Como usuário comum, ao agendar uma reunião, quero receber um e-mail de confirmação do agendamento para ter a certeza de que a reunião foi marcada corretamente e facilitando o acompanhamento da minha agenda.|     4     |    2   |   🟦   |
+|  16     |               |   Média    |Como um usuário administrador, quero ser capaz de excluir usuários no sistema para manter a segurança e a integridade do sistema.                                                             |     3     |    4   |   🟦   |
+|  17     |               |    Baixa   |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.                                          |     5     |    4   |   🟦   |
+|  18     |               |    Baixa   |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|    5     |    4   |   🟦   |
+|  19     |               |    Baixa   |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.                     |     5     |    4   |   🟦   |
+|  20     |               |    Baixa   |Como usuário administrador, quero editar informações de salas de reuniões para poder atualizar qualquer informação relevante, garantindo que as informações estejam precisas e atualizadas para os usuários que agendam reuniões.|     5     |    3   |   🟦   |
+|  21     |               |    Baixa   |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.                                        |     3     |    3   |   🟦   |
+|  22     |               |    Baixa   |Como usuário comum, quero ter a possibilidade de editar minhas informações para manter meus dados atualizados.                                                                                |     3     |    4   |   🟦   |
 
 </div>
 
@@ -214,17 +216,19 @@ A definição do nosso *Minimal Viable Product (MVP)* é uma versão sintética,
 | US07 |Como usuário comum criador da reunião, quero desmarcar reuniões que criei para evitar a realização de reuniões desnecessárias ou agendadas erroneamente.| 
 | US08 |Como usuário comum, ao marcar uma reunião, quero ver a disponibilidade dos convidados para verificar quem poderá participar da mesma.| 
 | US09 |Como usuário comum, ao preencher as informações da reunião, quero receber sugestões de sala para agenda-la para ter mais facilidade de uso.|
-| US10 |Como usuário comum, ao agendar uma reunião, quero receber um e-mail de confirmação do agendamento para ter a certeza de que a reunião foi marcada corretamente e facilitando o acompanhamento da minha agenda.|
-| US11 |Como usuário comum, ao ser convidado para uma reunião, quero receber uma notificação por e-mail para saber em que reuniões estou participando.|
-| US12 |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.|
-| US13 |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|
-| US14 |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.|
-| US15 |Como usuário comum responsável por agendar a reunião, quero receber um e-mail contendo o esboço da ata da reunião gerada em arquivo Word para facilitar a preparação e organização da reunião.|
-| US16 |Como usuário administrador, quero criar salas de reuniões físicas para facilitar o agendamento e a reserva de espaços adequados para reuniões presenciais.|
-| US17 |Como usuário administrador, quero criar salas de reuniões virtuais para participar de reuniões via zoom.|
-| US18 |Como usuário administrador, quero editar informações de salas de reuniões para poder atualizar qualquer informação relevante, garantindo que as informações estejam precisas e atualizadas para os usuários que agendam reuniões.|
-| US19 |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.|
-| US20 |Como um usuário administrador, quero ser capaz de excluir usuários no sistema para manter a segurança e a integridade do sistema.|
+| US10 |Como um novo usuário criador da reunião, quero ser capaz de visualizar as reuniões que criei para ter maior controle da minha agenda.|
+| US11 |Como um usuário do sistema, quero ser capaz agendar reuniões individuais em uma sala de reunião física, para participar de reuniões sozinho.|
+| US12 |Como usuário comum, ao agendar uma reunião, quero receber um e-mail de confirmação do agendamento para ter a certeza de que a reunião foi marcada corretamente e facilitando o acompanhamento da minha agenda.|
+| US13 |Como usuário comum, ao ser convidado para uma reunião, quero receber uma notificação por e-mail para saber em que reuniões estou participando.|
+| US14 |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.|
+| US15 |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|
+| US16 |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.|
+| US17 |Como usuário comum responsável por agendar a reunião, quero receber um e-mail contendo o esboço da ata da reunião gerada em arquivo Word para facilitar a preparação e organização da reunião.|
+| US18 |Como usuário administrador, quero criar salas de reuniões físicas para facilitar o agendamento e a reserva de espaços adequados para reuniões presenciais.|
+| US19 |Como usuário administrador, quero criar salas de reuniões virtuais para participar de reuniões via zoom.|
+| US20 |Como usuário administrador, quero editar informações de salas de reuniões para poder atualizar qualquer informação relevante, garantindo que as informações estejam precisas e atualizadas para os usuários que agendam reuniões.|
+| US21 |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.|
+| US22 |Como um usuário administrador, quero ser capaz de excluir usuários no sistema para manter a segurança e a integridade do sistema.|
 
 </div>
 
