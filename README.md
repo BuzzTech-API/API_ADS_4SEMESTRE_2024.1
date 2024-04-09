@@ -3,7 +3,7 @@
 
 
 <p align="center">
-      <img src="/doc_img/logo-BuzzTech.png" alt="logo da Buzz Tech" width="200">
+      <img src="Documentação/img/Logo/logo-BuzzTech.png" alt="logo da Buzz Tech" width="200">
       <h2 align="center"> Buzz Tech</h2>
 
 <br>
@@ -58,14 +58,76 @@
 <br>
 
 <div align="center">
-🤖 On Progress ...
-<!--
-      <img src="" width="250" height=""/> 
-      <img src="" width="250" height=""/>
-      <img src="" width="250" height=""/>
-      <img src="" width="250" height=""/>
--->
-
+  <table>
+    <tr>
+      <td>
+       <img src="Documentação/img/Protótipo/Tela_Login.png" width="250" height="">
+      </td>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Inicial.png" width="250" height=""> 
+      </td>
+      <td rowspan="2">
+        <img src="Documentação/img/Protótipo/Tela_Agendamento_Hibrido.png" width="250" height="">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Visualizar_Agendamentos.png" width="250" height="142"> 
+      </td>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Visualizar_Agendamentos_Versão 02.png" width="250" height=""> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Visualizar_Agendamentos_Versão 03.png" width="250" height="">
+      </td>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Agendamento_Alternativo.png" width="250" height="">
+      </td>
+      <td rowspan="2">
+        <img src="Documentação/img/Protótipo/Tela_Agendamento_Presencial.png" width="250" height="">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Agendamento_Solo_Parte_2.png" width="250" height="">
+      </td>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Agendamento_Solo_Parte_3.png" width="250" height="">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Inicial_ADM.png" width="250" height=""> 
+      </td>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Cadastro_Salas.png" width="250" height=""> 
+      </td>
+      <td rowspan="2">
+        <img src="Documentação/img/Protótipo/Tela_Agendamento_Virtual.png" width="250" height="">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Cadastro_Usuários.png" width="250" height="">
+      </td>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Visualizar_Salas.png" width="250" height=""> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="Documentação/img/Protótipo/Tela_Visualizar_Usuários.png" width="250" height="">
+      </td>
+      <td>
+      </td>
+      <td rowspan="2">
+        <img src="Documentação/img/Protótipo/Tela_Agendamento_Solo.png" width="250" height="">
+      </td>
+    </tr>
+  </table>
+  
 </div>
 
 
