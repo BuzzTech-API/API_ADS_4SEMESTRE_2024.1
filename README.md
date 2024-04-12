@@ -61,69 +61,69 @@
   <table>
     <tr>
       <td>
-       <img src="Documentação/img/Protótipo/Tela_Login.png" width="250" height="">
+       <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Login.PNG" width="250" height="">
       </td>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Inicial.png" width="250" height=""> 
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Inicial.PNG" width="250" height=""> 
       </td>
       <td rowspan="2">
-        <img src="Documentação/img/Protótipo/Tela_Agendamento_Hibrido.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Agendamento_Hibrido.PNG" width="250" height="">
       </td>
     </tr>
     <tr>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Visualizar_Agendamentos.png" width="250" height="142"> 
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Visualizar_Agendamentos.PNG" width="250" height="142"> 
       </td>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Visualizar_Agendamentos_Versão 02.png" width="250" height=""> 
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Visualizar_Agendamentos_Vers%C3%A3o%2002.PNG" width="250" height=""> 
       </td>
     </tr>
     <tr>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Visualizar_Agendamentos_Versão 03.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Visualizar_Agendamentos_Vers%C3%A3o%2003.PNG" width="250" height="">
       </td>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Agendamento_Alternativo.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Agendamento_Alternativo.PNG" width="250" height="">
       </td>
       <td rowspan="2">
-        <img src="Documentação/img/Protótipo/Tela_Agendamento_Presencial.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Agendamento_Presencial.PNG" width="250" height="">
       </td>
     </tr>
     <tr>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Agendamento_Solo_Parte_2.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Agendamento_Solo_Parte_2.PNG" width="250" height="">
       </td>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Agendamento_Solo_Parte_3.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Agendamento_Solo_Parte_3.PNG" width="250" height="">
       </td>
     </tr>
     <tr>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Inicial_ADM.png" width="250" height=""> 
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Inicial_ADM.PNG" width="250" height=""> 
       </td>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Cadastro_Salas.png" width="250" height=""> 
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Cadastro_Salas.PNG" width="250" height=""> 
       </td>
       <td rowspan="2">
-        <img src="Documentação/img/Protótipo/Tela_Agendamento_Virtual.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Agendamento_Virtual.PNG" width="250" height="">
       </td>
     </tr>
     <tr>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Cadastro_Usuários.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Cadastro_Usu%C3%A1rios.PNG" width="250" height="">
       </td>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Visualizar_Salas.png" width="250" height=""> 
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Visualizar_Salas.PNG" width="250" height=""> 
       </td>
     </tr>
     <tr>
       <td>
-        <img src="Documentação/img/Protótipo/Tela_Visualizar_Usuários.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Visualizar_Usu%C3%A1rios.PNG" width="250" height="">
       </td>
       <td>
       </td>
       <td rowspan="2">
-        <img src="Documentação/img/Protótipo/Tela_Agendamento_Solo.png" width="250" height="">
+        <img src="https://github.com/BuzzTech-API/API_ADS_4SEMESTRE_2024.1/blob/main/Documenta%C3%A7%C3%A3o/img/Prot%C3%B3tipo/Tela_Agendamento_Solo.PNG" width="250" height="">
       </td>
     </tr>
   </table>
@@ -220,7 +220,7 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 |  6      |      RQ5      |    Alta    |Como usuário comum, ao ser convidado para uma reunião, quero receber uma notificação por e-mail para saber em que reuniões estou participando.                                                |     4     |    2   |   🟦   |
 |  7      |      RQ7      |    Alta    |Como usuário comum responsável por agendar a reunião, quero receber um e-mail contendo o esboço da ata da reunião gerada em arquivo Word para facilitar a preparação e organização da reunião.|     6     |    2   |   🟦   |
 |  8      |      RQ3      |    Alta    |Como usuário administrador, quero criar salas de reuniões físicas para facilitar o agendamento e a reserva de espaços adequados para reuniões presenciais.                                    |     4     |    1   |   ⚒️   |
-|  9      |      RQ3      |    Alta    |Como usuário administrador, quero criar salas de reuniões virtuais para participar de reuniões via zoom.                                                                                      |     10    |    1   |   ⚒️   |
+|  9      |      RQ3      |    Alta    |Como usuário administrador, quero criar salas de reuniões virtuais para participar de reuniões via zoom.                                                                                      |     10    |    2   |   🟦   |
 |  10     |      RQ3      |    Alta    |Como um novo usuário criador da reunião, quero ser capaz de visualizar as reuniões que criei para ter maior controle da minha agenda.                                                         |     5     |    1   |   ⚒️   |
 |  11     |      RQ3      |    Alta    |Como um usuário do sistema, quero ser capaz agendar reuniões individuais em uma sala de reunião física, para participar de reuniões sozinho.                                                  |     4     |    1   |   ⚒️   |
 |  12     |               |   Média    |Como usuário comum criador da reunião, quero desmarcar reuniões que criei para evitar a realização de reuniões desnecessárias ou agendadas erroneamente.                                      |     3     |    3   |   🟦   |
