@@ -16,6 +16,7 @@
   <a href ="#metodologia"> Metodologia </a>  |
   <a href ="#mvp"> MVP </a>  |
   <a href ="#prot"> Protótipo </a>  |
+  <a href ="#demo"> Vídeo </a>  |
   <a href ="#sprint"> Sprints </a>  |
   <a href ="#backlog"> Backlog do Produto </a>  | 
   <!-- <a href ="#roadmap"> Roadmap </a>  | -->
@@ -171,8 +172,7 @@ Desenvolver uma aplicação web que atue como um sistema gerênciador para reuni
 
 ## 📽 Demonstração <a id="demo"></a>
 
-
-![Video](https://fatecspgov.sharepoint.com/:v:/s/BuzzTech/EZ6U1GOzdHVIiqHrMQPY3SUBhIYvo5XEWw61QTnXYmjY3Q?e=4BLZu8 "Entrega Sprint 2")
+[Vídeo de Demonstração](https://fatecspgov.sharepoint.com/:v:/r/sites/BuzzTech/API%20202401/06.Apresenta%C3%A7%C3%B5es%20de%20SPRINT/Entrega%20Sprint%202.mp4?csf=1&web=1&e=rAhAUq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D "Entrega Sprint 2")
 
 ## :books: Metodologia <a id="metodologia"></a>
 
