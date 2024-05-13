@@ -169,6 +169,10 @@ Desenvolver uma aplicação web que atue como um sistema gerênciador para reuni
  
 <br> -->
 
+## 📽 Demonstração <a id="demo"></a>
+
+
+![Video](https://fatecspgov.sharepoint.com/:v:/s/BuzzTech/EZ6U1GOzdHVIiqHrMQPY3SUBhIYvo5XEWw61QTnXYmjY3Q?e=4BLZu8 "Entrega Sprint 2")
 
 ## :books: Metodologia <a id="metodologia"></a>
 
