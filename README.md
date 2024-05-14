@@ -18,10 +18,10 @@
   <a href ="#prot"> Protótipo </a>  |
   <a href ="#demo"> Vídeo </a>  |
   <a href ="#sprint"> Sprints </a>  |
+  <a href ="#requisitos"> Requisitos </a>  | 
   <a href ="#backlog"> Backlog do Produto </a>  | 
   <!-- <a href ="#roadmap"> Roadmap </a>  | -->
   <!--<a href ="#personas"> Personas </a>  | -->
-  <a href ="#historia"> Histórias de Usuário </a>  | 
   <a href ="#equipe"> Equipe </a>  |
   <a href ="#focal"> Focal Point </a>
 </p>
@@ -174,6 +174,8 @@ Desenvolver uma aplicação web que atue como um sistema gerênciador para reuni
 
 [Vídeo de Demonstração](https://fatecspgov.sharepoint.com/:v:/r/sites/BuzzTech/API%20202401/06.Apresenta%C3%A7%C3%B5es%20de%20SPRINT/Entrega%20Sprint%202.mp4?csf=1&web=1&e=rAhAUq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D "Entrega Sprint 2")
 
+<br>
+
 ## :books: Metodologia <a id="metodologia"></a>
 
 
@@ -193,8 +195,6 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 
 <br>
 
-
-
 ## :date: Sprints <a id="sprint"></a>
 
 🔖 SPRINT 1:  Finalizada!🟩
@@ -205,14 +205,38 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 
 🔖 SPRINT 4:  Não Iniciado!🟦
 
+<br>
 
+## :key: Requisitos<a id="requisitos"></a>
 
+<div align="center">
+
+|          Requisitos           |                     Descrição                      |         Origem          |
+| :-------------------: | :----------------------------------------------------------: | :-------------: |
+| RQ01 |Acesso via browser por meio de servidor interno (visando integração posterior com intranet), com login e senha.|Lista de requisitos|
+| RQ02 |Cadastro de usuários, incluindo categorias Nome, Email, Diretoria, Nível de Permissão (Nível 1, Nível 2, Nível 3).|Lista de requisitos|
+| RQ03 |Cadastro de Salas de Reuniões Online (via Zoom) e Offline (Físicas, que podem ser do tipo Individual ou Grupo). As salas devem ter um nível de permissão mínimo a partir do qual o usuário pode realizar a reserva.|Lista de requisitos|
+| RQ04 |Interface para agendamento de reuniões permitindo as categorias Online, Offline, híbrido e Individual, mostrando disponibilidade de salas para cada categoria na data escolhida (A categoria híbrida deve reservar duas salas, uma online e uma sala Offline – Grupo).|Lista de requisitos|
+| RQ05 |A interface deve apresentar informações como Título, Data e Horário, Participantes, Pauta, Anexos (opcional). Ao fim do agendamento, o software deve enviar um e-mail com agendamento Outlook para todas as pessoas e salas agendadas. No caso de salas online, o software deve agendar a reunião via Zoom e gerar o link de reunião a ser enviado para os participantes.|Lista de requisitos|
+| RQ06 |No caso do agendamento individual, o usuário deve ter a opção de realizar um agendamento completo de reunião ou de apenas agendar a sala de reunião Individual para uma reunião já existente em sua agenda.|Lista de requisitos|
+| RQ07 |O membro da equipe responsável pelo agendamento deve receber também um e-mail contendo o esboço da ata da reunião gerada em arquivo Word. Um exemplo do formulário vazio da ata será fornecido aos alunos, mas conterá campos como Assunto, Data, Confidencialidade, Área e Programa, Pauta, Lista de Participantes Convocados, Etc.|Lista de requisitos|
+| RQ08 |O software deve ser capaz de realizar interface com a API do Outlook, a fim de verificar disponibilidade dos participantes por meio de cruzamento entre agendas.|Lista de requisitos|
+| RQ09 |O software deve ser capaz de avaliar a solicitação do colaborador e os calendários das salas registradas a fim de propor uma sala disponível para agendamento.|Apresentação do projeto|
+| RQ10 |Ao fim do agendamento, o usuário responsável pela solicitação deve receber um e-mail com a confirmação e os dados necessários para acesso à sala, assim como o link de acesso para envio aos outros participantes quando aplicável.|Apresentação do projeto|
+| RQ11 |Ao fim do agendamento, o usuário responsável pela solicitação deve receber um e-mail com a confirmação e os dados necessários para acesso à sala, assim como o link de acesso para envio aos outros participantes quando aplicável.|Apresentação do projeto|
+| RQ12 |O usuário que criou a reunião deve ser capaz de desmarcar uma reunião.|Acordo com o cliente|
+| RQ13 |O usuário deve ser capaz de recusar a participação de uma reunião.|Acordo com o cliente|
+| RQ14 |O usuário deve ser avisado quando o tempo de agendamento estiver acabando.|Acordo com o cliente|
+| RQ15 |O usuário precisa ser notificado caso uma reunião seja desmarcada.|Acordo com o cliente|
+| RQ16 |Quando uma reunião estiver próxima o convidado da mesma deve ser notificado.|Acordo com o cliente|
+| RQ17 |O usuário administrador deve ter a possibilidade de excluir salas e outros usuários do sistema. |Acordo com o cliente|
+| RQ18 |Os usuários devem ter a possibilidade de editar suas informações dentro do sistema.|Acordo com o cliente|
+
+</div>
 
 <br>
 
 ## :seedling: Backlog do Produto<a id="backlog"></a>
-
-<br>
 
 <div align="center">
       
@@ -270,43 +294,10 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 
 <br>
 
-## :key: Histórias de Usuário<a id="historia"></a>
-
 <div align="center">
-
-|          ID           |                     História de Usuário                      |
-| :-------------------: | :----------------------------------------------------------: |
-| US01 |Como um usuário administrador, quero ser capaz de cadastrar usuários no sistema para poder realizar reuniões.|
-| US02 |Como um usuário comum ou administrador, quero poder fazer login no sistema para acessar minha conta.|
-| US03 |Como usuário comum, quero ter a possibilidade de editar minhas informações para manter meus dados atualizados.|
-| US04 |Como usuário comum, quero agendar reuniões em salas presenciais tanto individuais quanto em grupo para colaboração e a comunicação de forma pessoal.|
-| US05 |Como usuário comum, quero agendar reuniões online no Zoom pelo sistema para facilitar a comunicação remota e a colaboração entre os membros da equipe.|
-| US06 |Como usuário comum, quero poder agendar reuniões híbridas selecionando uma sala presencial e outra online para facilitar a participação remota e presencial dos membros da equipe.| 
-| US07 |Como usuário comum criador da reunião, quero desmarcar reuniões que criei para evitar a realização de reuniões desnecessárias ou agendadas erroneamente.| 
-| US08 |Como usuário comum, ao marcar uma reunião, quero ver a disponibilidade dos convidados para verificar quem poderá participar da mesma.| 
-| US09 |Como usuário comum, ao preencher as informações da reunião, quero receber sugestões de sala para agenda-la para ter mais facilidade de uso.|
-| US10 |Como um novo usuário criador da reunião, quero ser capaz de visualizar as reuniões que criei para ter maior controle da minha agenda.|
-| US11 |Como um usuário do sistema, quero ser capaz agendar reuniões individuais em uma sala de reunião física, para participar de reuniões sozinho.|
-| US12 |Como usuário comum, ao agendar uma reunião, quero receber um e-mail de confirmação do agendamento para ter a certeza de que a reunião foi marcada corretamente e facilitando o acompanhamento da minha agenda.|
-| US13 |Como usuário comum, ao ser convidado para uma reunião, quero receber uma notificação por e-mail para saber em que reuniões estou participando.|
-| US14 |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.|
-| US15 |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|
-| US16 |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.|
-| US17 |Como usuário comum responsável por agendar a reunião, quero receber um e-mail contendo o esboço da ata da reunião gerada em arquivo Word para facilitar a preparação e organização da reunião.|
-| US18 |Como usuário administrador, quero criar salas de reuniões físicas para facilitar o agendamento e a reserva de espaços adequados para reuniões presenciais.|
-| US19 |Como usuário administrador, quero criar salas de reuniões virtuais para participar de reuniões via zoom.|
-| US20 |Como usuário administrador, quero editar informações de salas de reuniões para poder atualizar qualquer informação relevante, garantindo que as informações estejam precisas e atualizadas para os usuários que agendam reuniões.|
-| US21 |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.|
-| US22 |Como um usuário administrador, quero ser capaz de excluir usuários no sistema para manter a segurança e a integridade do sistema.|
-
-</div>
-
-<br>
-
+      
 ## :mortar_board: Equipe <a id="equipe"></a>
-
-<!--  -->
-
+      
 |      Membro      |    Função     |                            Github                            |                           Linkedin                           |
 | :--------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | Natanael Machado  | Product Owner | <a href="https://github.com/NatanaelSM"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/natanael-machado-796841270"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
@@ -315,14 +306,16 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 |  Vitor Lima  | Desenvolvedor | <a href="https://github.com/lima2206"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/vitor-spricigo-lima-84a377184"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 |   Cauan Almeida   | Desenvolvedor | <a href="https://github.com/Tsundek"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/cauancesar-almeida/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | Pedro Davi | Desenvolvedor | <a href="https://github.com/PedrohDavi"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/pedro-davi-jobs/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Nilber Siqueira | Desenvolvedor | <a href="https://github.com/NilberSiqueira"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/nilber-siqueira-b3404a176"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| Nilber Siqueira | Desenvolvedor | <a href="https://github.com/NilberSiqueira"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/nilber-siqueira-b3404a176"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |      
 
 <br>
 
 ## :dart: Focal Point<a id="focal"></a>
 
-
-
 | PO²              | M²       |
 | :-------------------: | :-----------: |
 | <a href='https://www.linkedin.com/in/juliana-forin-pasquini-martinez-756b24163/'>Profª Juliana</a> | <a href=''>A definir</a> |
+
+
+</div>
+
