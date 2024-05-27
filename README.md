@@ -201,7 +201,7 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 
 🔖 SPRINT 2:  Finalizada!🟩
 
-🔖 SPRINT 3:  Em Andamento!🟩
+🔖 SPRINT 3:  Finalizada!🟩
 
 🔖 SPRINT 4:  Não Iniciado!🟦
 
