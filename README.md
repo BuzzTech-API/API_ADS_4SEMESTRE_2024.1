@@ -172,7 +172,7 @@ Desenvolver uma aplicação web que atue como um sistema gerênciador para reuni
 
 ## 📽 Demonstração <a id="demo"></a>
 
-[Vídeo de Demonstração](https://fatecspgov.sharepoint.com/:v:/r/sites/BuzzTech/API%20202401/06.Apresenta%C3%A7%C3%B5es%20de%20SPRINT/Entrega%20Sprint%202.mp4?csf=1&web=1&e=rAhAUq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D "Entrega Sprint 2")
+[Vídeo de Demonstração - Sprint 2](https://fatecspgov.sharepoint.com/:v:/r/sites/BuzzTech/API%20202401/06.Apresenta%C3%A7%C3%B5es%20de%20SPRINT/Entrega%20Sprint%202.mp4?csf=1&web=1&e=rAhAUq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D "Entrega Sprint 2")
 
 <br>
 
@@ -201,7 +201,7 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 
 🔖 SPRINT 2:  Finalizada!🟩
 
-🔖 SPRINT 3:  Em Andamento!⚒️
+🔖 SPRINT 3:  Em Andamento!🟩
 
 🔖 SPRINT 4:  Não Iniciado!🟦
 
@@ -250,16 +250,16 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 |  6      |      RQ04      |    Alta    |Como usuário comum, quero poder agendar reuniões híbridas selecionando uma sala presencial e outra online para facilitar a participação remota e presencial dos membros da equipe.|                17     |   2   |   🟩   |
 |  7      |      RQ03      |    Alta    |Como usuário administrador, quero criar salas de reuniões físicas para facilitar o agendamento e a reserva de espaços adequados para reuniões presenciais.|     4     |    1   |   🟩   |
 |  8      |      RQ03      |    Alta    |Como usuário administrador, quero criar salas de reuniões virtuais para participar de reuniões via zoom.                                    |     10     |    2   |   🟩   |
-|  9      |      RQ07      |    Alta    |Como usuário comum responsável por agendar a reunião, quero receber um e-mail contendo o esboço da ata da reunião gerada em arquivo Word para facilitar a preparação e organização da reunião.                                                                                      |     6    |    3   |   ⚒️   |
+|  9      |      RQ07      |    Alta    |Como usuário comum responsável por agendar a reunião, quero receber um e-mail contendo o esboço da ata da reunião gerada em arquivo Word para facilitar a preparação e organização da reunião.                                                                                      |     6    |    3   |   🟩   |
 |  10     |      RQ03      |    Média    |Como um novo usuário criador da reunião, quero ser capaz de visualizar as reuniões que criei para ter maior controle da minha agenda.                                                         |     5     |    1   |   🟩   |
-|  11     |      RQ09      |    Média    |Como usuário comum, ao preencher as informações da reunião, quero receber sugestões de sala para agenda-la para ter mais facilidade de uso.                                                  |     6     |    3   |   ⚒️   |
-|  12     |       RQ08      |   Média    |Como usuário comum, ao marcar uma reunião, quero ver a disponibilidade dos convidados para verificar quem poderá participar da mesma.                                      |     6     |    3   |   ⚒️   |
+|  11     |      RQ09      |    Média    |Como usuário comum, ao preencher as informações da reunião, quero receber sugestões de sala para agenda-la para ter mais facilidade de uso.                                                  |     6     |    3   |   🟩   |
+|  12     |       RQ08      |   Média    |Como usuário comum, ao marcar uma reunião, quero ver a disponibilidade dos convidados para verificar quem poderá participar da mesma.                                      |     6     |    3   |   🟩   |
 |  13     |      RQ10      |   Média    |Como usuário comum, ao agendar uma reunião, quero receber um e-mail de confirmação do agendamento para ter a certeza de que a reunião foi marcada corretamente e facilitando o acompanhamento da minha agenda.                                                         |     4     |    3   |   ⚒️   |
-|  14     |      RQ12      |   Média    |Como usuário comum criador da reunião, quero desmarcar reuniões que criei para evitar a realização de reuniões desnecessárias ou agendadas erroneamente.                                                   |     3     |    3   |   ⚒️   |
-|  15     |      RQ13      |   Média    |Como usuário comum convidado de uma reunião, quero recusar a participação de qualquer tipo de reunião para liberar minha agenda quando necessário.|     3     |    3   |   ⚒️   |
-|  16     |      RQ05      |   Média    |Como usuário comum, ao ser convidado para uma reunião, quero receber uma notificação por e-mail para saber em que reuniões estou participando.                                                             |     4     |    3   |   ⚒️   |
+|  14     |      RQ12      |   Média    |Como usuário comum criador da reunião, quero desmarcar reuniões que criei para evitar a realização de reuniões desnecessárias ou agendadas erroneamente.                                                   |     3     |    3   |   🟩   |
+|  15     |      RQ13      |   Média    |Como usuário comum convidado de uma reunião, quero recusar a participação de qualquer tipo de reunião para liberar minha agenda quando necessário.|     3     |    3   |   🟩   |
+|  16     |      RQ05      |   Média    |Como usuário comum, ao ser convidado para uma reunião, quero receber uma notificação por e-mail para saber em que reuniões estou participando.                                                             |     4     |    3   |   🟩   |
 |  17     |      RQ17      |    Média   |Como usuário administrador, quero editar informações de salas de reuniões para poder atualizar qualquer informação relevante, garantindo que as informações estejam precisas e atualizadas para os usuários que agendam reuniões.                                          |     5     |    3   |   ⚒️   |
-|  18     |      RQ17      |    Baixa   |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.|     3     |    3   |   ⚒️   |
+|  18     |      RQ17      |    Baixa   |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.|     3     |    3   |   🟩   |
 |  19     |      RQ15      |    Baixa   |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.                     |     5     |    4   |   🟦   |
 |  20     |      RQ16      |    Baixa   |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|     5     |    4   |   🟦   |
 |  21     |      RQ14      |    Baixa   |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.                                        |     5     |    4   |   🟦   |
