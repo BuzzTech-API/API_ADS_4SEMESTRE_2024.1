@@ -1,6 +1,8 @@
 [submodule "Synergy-BackEnd"]
 	path = Synergy-BackEnd
 	url = https://github.com/BuzzTech-API/Synergy-BackEnd.git
+	branch = main
 [submodule "Synergy-FrontEnd"]
 	path = Synergy-FrontEnd
 	url = https://github.com/BuzzTech-API/Synergy-FrontEnd.git
+	branch = main
