@@ -203,7 +203,7 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 
 🔖 SPRINT 3:  Finalizada!🟩
 
-🔖 SPRINT 4:  Não Iniciado!🟦
+🔖 SPRINT 4:  Em Progresso!⚒️
 
 <br>
 
@@ -260,11 +260,11 @@ Logo, para embasar a tomada de decisão e priorizar as tarefas com maior entrega
 |  16     |      RQ05      |   Média    |Como usuário comum, ao ser convidado para uma reunião, quero receber uma notificação por e-mail para saber em que reuniões estou participando.                                                             |     4     |    3   |   🟩   |
 |  17     |      RQ17      |    Média   |Como usuário administrador, quero editar informações de salas de reuniões para poder atualizar qualquer informação relevante, garantindo que as informações estejam precisas e atualizadas para os usuários que agendam reuniões.                                          |     5     |    3   |   ⚒️   |
 |  18     |      RQ17      |    Baixa   |Como usuário administrador, quero excluir salas de reuniões de qualquer tipo para remover espaços que não são mais necessários ou estão indisponíveis.|     3     |    3   |   🟩   |
-|  19     |      RQ15      |    Baixa   |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.                     |     5     |    4   |   🟦   |
-|  20     |      RQ16      |    Baixa   |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|     5     |    4   |   🟦   |
-|  21     |      RQ14      |    Baixa   |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.                                        |     5     |    4   |   🟦   |
-|  22     |      RQ17      |    Baixa   |Como um usuário administrador, quero ser capaz de excluir usuários no sistema para manter a segurança e a integridade do sistema.                                                                                |     3     |    4   |   🟦   |
-|  23     |      RQ18      |    Baixa   |Como usuário comum, quero ter a possibilidade de editar minhas informações para manter meus dados atualizados.                                                                                |     3     |    4   |   🟦   |
+|  19     |      RQ15      |    Baixa   |Como usuário comum, quero ser avisado quando uma reunião for desmarcada para evitar confusões e garantindo que meu tempo seja utilizado de maneira eficiente e produtiva.                     |     5     |    4   |   ⚒️   |
+|  20     |      RQ16      |    Baixa   |Como um usuário comum, quero receber um aviso quando uma reunião agendada estiver próxima para me preparar adequadamente, organizar meu tempo e garantir minha participação pontual na reunião.|     5     |    4   |   ⚒️   |
+|  21     |      RQ14      |    Baixa   |Como usuário comum, quero receber um aviso no e-mail quando o tempo do agendamento da sala estiver acabando para que não haja conflitos de horários.                                        |     5     |    4   |   ⚒️   |
+|  22     |      RQ17      |    Baixa   |Como um usuário administrador, quero ser capaz de excluir usuários no sistema para manter a segurança e a integridade do sistema.                                                                                |     3     |    4   |   ⚒️   |
+|  23     |      RQ18      |    Baixa   |Como usuário comum, quero ter a possibilidade de editar minhas informações para manter meus dados atualizados.                                                                                |     3     |    4   |   ⚒️   |
 
 </div>
 
